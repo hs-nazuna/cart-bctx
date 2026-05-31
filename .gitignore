@@ -3,3 +3,5 @@ cartbctx/*.so
 cartbctx/*.cpp
 cartbctx.egg-info
 **/__pycache__
+docs/_build
+docs/_autosummary
