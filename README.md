@@ -65,3 +65,7 @@ For regression, use `DecisionTreeRegressorBCTX` in the same way.
   year = {2026},
 }
 ```
+
+## Acknowledgments
+This work was supported by Japan Science and Technology Agency,
+ACT-X Grant Number JPMJAX24CE. (2024/10~2027/03)
