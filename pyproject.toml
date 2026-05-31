@@ -8,6 +8,7 @@ requires = [
     "matplotlib",
     "seaborn",
     "pandas",
-    "graphviz"
+    "graphviz",
+    "sphinx>=7.0"
 ]
 build-backend = "setuptools.build_meta"

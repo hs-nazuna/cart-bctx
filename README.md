@@ -11,6 +11,14 @@ CART-BCTX is a natural extension of CART algorithm that supports backward compat
 python -m pip install .
 ```
 
+## Generate Docs Locally
+```Bash
+cd docs
+make html
+```
+
+Docs is generated at `docs/_build/html/`
+
 ## Usage
 The main API conforms with scikit-learn:
 ```Python

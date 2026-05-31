@@ -111,6 +111,7 @@ class DecisionTreeClassifierBCTX(_TreeBaseBCTX, BaseEstimator, ClassifierMixin):
             feature_names: npt.ArrayLike | None = None
         ) -> "DecisionTreeClassifierBCTX":
         """Build a decision tree classifier from the training set (X, y).
+
         Parameters
         ----------
         X : array-like of shape (n_samples, n_features)
@@ -164,6 +165,7 @@ class DecisionTreeClassifierBCTX(_TreeBaseBCTX, BaseEstimator, ClassifierMixin):
             sample_bctx_weight: npt.ArrayLike | None = None
         ) -> "DecisionTreeClassifierBCTX":
         """Build a decision tree classifier from the training set (X, y).
+
         Parameters
         ----------
         X : array-like of shape (n_samples, n_features)
@@ -232,6 +234,7 @@ class DecisionTreeClassifierBCTX(_TreeBaseBCTX, BaseEstimator, ClassifierMixin):
             round_features: int | None = None
         ) -> graphviz.Digraph:
         """Export the decision tree in Graphviz format.
+
         Parameters
         ----------
         report_n_samples : bool, default=True
@@ -400,6 +403,7 @@ class DecisionTreeRegressorBCTX(_TreeBaseBCTX, BaseEstimator, RegressorMixin):
             feature_names: npt.ArrayLike | None = None
         ) -> "DecisionTreeRegressorBCTX":
         """Build a decision tree regressor from the training set (X, y).
+
         Parameters
         ----------
         X : array-like of shape (n_samples, n_features)
@@ -458,6 +462,7 @@ class DecisionTreeRegressorBCTX(_TreeBaseBCTX, BaseEstimator, RegressorMixin):
             sample_bctx_weight: npt.ArrayLike | None = None
         ) -> "DecisionTreeRegressorBCTX":
         """Build a decision tree regressor from the training set (X, y).
+
         Parameters
         ----------
         X : array-like of shape (n_samples, n_features)
@@ -533,6 +538,7 @@ class DecisionTreeRegressorBCTX(_TreeBaseBCTX, BaseEstimator, RegressorMixin):
             round_predicts: int | None = None
         ) -> graphviz.Digraph:
         """Export the decision tree in Graphviz format.
+
         Parameters
         ----------
         report_n_samples : bool, default=True
