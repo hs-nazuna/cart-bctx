@@ -1,6 +1,7 @@
 # Classification and Regression Trees with Backward Compatible Tree-based Explanations under Retraining Scenarios
 
 Software repository for our paper: "Backward Compatibility in Tree-Based Explanations and Enhanced CART Algorithm", to appear in KDD 2026.
+For detailed experimental scripts and datasets related to the paper, please download from [this figshare page](https://doi.org/10.6084/m9.figshare.32521632).
 
 CART-BCTX is a natural extension of CART algorithm that supports backward compatible tree-based explanations.
 
